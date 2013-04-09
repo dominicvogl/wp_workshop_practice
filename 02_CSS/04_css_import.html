@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="de">
+
+	<head>
+
+		<title>Wordpress Workshop - 04 CSS Importmöglichkeiten</title>
+    
+		<!-- IMPORTIERE EXTERNE STYLESHEETS -->
+		<link href="css/extern.css" rel="stylesheet" type="text/css" media="all"  />
+		
+		<style type="text/css">	
+		
+			div#container1 { background: red; }
+			
+			.container2 { background: blue; width: 300px;}			
+		
+		</style>
+        
+	</head>
+
+	<body>
+
+		<div>Ich bin ein Container.</div>
+		
+		<div id="container1">Ich bin ein roter Container</div>
+		
+		<div class="container2">Ich bin ein blauer Container.</div>    
+		<div class="container2" id="rahmen">Ich bin auch ein blauer Container. Aber mit violettem Rahmen</div>
+		
+		<div style="width: 400px; color: white;">Ich bin breiter als der Rest und meine Schrift ist weiss.</div>
+		
+	</body>
+	
+</html>
