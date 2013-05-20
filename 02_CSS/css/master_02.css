@@ -8,67 +8,73 @@ body {
 	line-height: 1em;
 	background: url(../elemente/bg_spacer.png) repeat-x 0px 155px #e2e2e2;
 	color: #353535;
-	}
+}
 	
-a { text-decoration: none; color: #06363b; }
-a:hover { color: #38929c; }
+a {
+	text-decoration: none;
+	color: #06363b;
+}
 
-div#main-wrapper {
+a:hover {
+	color: #38929c;
+}
+
+#main-wrapper {
 	position: relative;
 	left: 50%;
 	margin-left: -500px;
 	width: 1000px;
 	height: auto;
-	}
+}
 	
-div#nav { 
+#nav { 
 	width: 100%; height: 155px;
 	overflow: hidden;
 	padding-left: 85px;
-	}
+}
 	
-div#nav a {
+#nav a {
 	text-shadow: 1px 1px 0px rgba(255,255,255,0.7);
 	height: 95px;
 	padding: 60px 30px 0 30px;
 	display: block;
 	background: none;
 	font-size: .8em;
-	}
+}
 
-div#nav a:hover {
+#nav a:hover {
 	color: #38929c;
-	}
+}
 	
-div#nav li {
+#nav li {
 	float: left;
 	display: block;
-	}
+}
 	
-div#nav a span { 
+#nav a span { 
 	font-family: 'DroidSansBold';
 	font-size: 1.3em;
 	display: block;	
 	margin-bottom: 5px;
-	}
+}
 
 
 span.weiterlesen {
 	display: block;
 	margin-bottom: 30px;
-	}
+}
 
 span.weiterlesen a {
 	display: block;
 	font-family: 'DroidSansBold';
-	}
+}
 
 
 .post h1 {	
 	height: 50px;
 	position: relative;
 	margin-bottom: 25px;
-	}
+}
 	
 .post h1 a {
 	font-family: 'DroidSansBold';
@@ -77,26 +83,31 @@ span.weiterlesen a {
 	color: #06363b;
 	text-decoration: none;	
 	text-shadow: 1px 1px 0 #fff;
-	}
+}
 	
-.post h1 a:hover { color: #38929c; }
+.post h1 a:hover {
+	color: #38929c;
+}
 	
 .post h2 {
 	line-height: 1.2em;
 	font-size: 1em;
 	font-family: 'DroidSansBold';
 	margin-bottom: 10px;
-	}
+}
 		
 .post {
 	padding: 0 0 30px 25px;
 	width: 536px; height: auto;
-	}
+}
 	
 .post p {
 	line-height: 1.6em;
 	font-size: .95em;
 	margin-bottom: 15px;
-	}
+}
 	
-.alignleft { float: left; margin-right: 10px; }
+.alignleft {
+	float: left;
+	margin-right: 10px;
+}
