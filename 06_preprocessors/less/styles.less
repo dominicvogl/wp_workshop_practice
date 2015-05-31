@@ -1,0 +1,46 @@
+//
+// Deine erstes Less File
+//
+
+// Variablen
+@color-base: lightblue;
+@color-highlight: indianred;
+
+@base-font-size: 17px;
+@base-font-weight: normal;
+
+@base-gap: 30px;
+
+//
+// Mixins
+//
+
+.font-style(@size, @weight: bold) {
+   font-family: Arial, sans-serif;
+   font-size: @size;
+   font-weight: @weight;
+}
+
+//
+// Deine Regeln
+//
+
+body {
+   font-size: @base-font-size;
+   font-weight: @base-font-weight;
+}
+
+div {
+   background: @color-base;
+   margin-bottom: @base-gap;
+   padding: (@base-gap / 2);
+   .font-style(19px);
+
+   p {
+      color: #333;
+
+      strong {
+         color: @color-highlight;
+      }
+   }
+}

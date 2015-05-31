@@ -1,71 +1,96 @@
 <!DOCTYPE html>
 <html lang="de">
 
-	<head>
+<head>
 
-		<title>Wordpress Workshop - 03 Blog Struktur</title>
-		
-	</head>
+   <title>Wordpress Workshop - 03 Blog Struktur</title>
 
-	<body>
+</head>
 
-		<!-- HAUPTNAVIGATION -->
-		<div id="nav">
-				  
-			  <ul>
-				  <li><a href="#">&Uuml;ber mich</a></li>
-				  <li><a href="#">Blog</a></li>
-				  <li><a href="#">Ressourcen</a></li>
-				  
-				  <li><a href="#" class="logo"></a>
-			  </ul>                 
-				  
-		</div><!-- /#nav -->
-		<!-- HAUPTNAVIGATION -->
-		
+<body>
 
-		<!-- HEADER -->
-		<div id="header">
-		
-			<img src="assets/konzert_01.jpg" width="960" height="307" alt="Bild von einem Open Air Konzert" />
-			
-		</div><!-- /#header -->
-		<!-- HEADER -->
-		
+<header class="module-header">
 
-		<!-- Das wird die Überschrift -->
-		<h2>Mein erster Blogpost, Jippy!</h2>
-		
-		<!-- Zu einem Blog gehört natürlich auch ein Datum -->
-		<span class="date">25. Mrz</span>
-		
-		<!-- Hier kommt ein Bild -->
-		<img src="http://placehold.it/150x150/" width="150" height="150" alt="Konzertfoto" />
-		
-		<!-- Ein Absatz -->
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla rhoncus magna nec nulla convallis convallis. Duis imperdiet fringilla tellus nec porttitor. In hac habitasse platea dictumst. Nunc dapibus pellentesque dui ut adipiscing. Praesent lacinia fermentum venenatis. Vestibulum semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla rhoncus magna nec nulla convallis convallis. Duis imperdiet fringilla tellus nec porttitor. In hac habitasse platea dictumst. Nunc dapibus pellentesque dui ut adipiscing. Praesent lacinia fermentum venenatis. Vestibulum semper</p>
-		
-		
-		<!-- Eine nummerierte Liste -->
-		<ol start="1" type="1">
-		
-			<li>Listenpunkt</li>
-			<li>Listenpunkt</li>
-			<li>Listenpunkt</li>
-			
-		</ol>
-		
-		<!-- Noch ein Absatz -->
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla rhoncus magna nec nulla convallis convallis. Duis imperdiet fringilla tellus nec porttitor. In hac habitasse platea dictumst. Nunc dapibus pellentesque dui ut adipiscing. Praesent lacinia fermentum venenatis. Vestibulum semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla rhoncus magna nec nulla convallis convallis. Duis imperdiet fringilla tellus nec porttitor. In hac habitasse platea dictumst. Nunc dapibus pellentesque dui ut adipiscing. Praesent lacinia fermentum venenatis. Vestibulum semper</p>
-		
-		<!-- Ein Link zum weiterlesen -->
-		<span>
-		
-			<a href="#">Weiterlesen</a>
-			
-		</span>
-		
-		
-	</body>
-	
+   <div class="inner-content">
+
+      <div class="row">
+
+         <div class="logo">
+            <img src="assets/logo.svg" width="300" alt="Wordpress Logo"/>
+         </div>
+         <!-- /.column -->
+
+         <div class="navigation">
+            <ul>
+               <li><a href="#"><span>Blog</span></a></li>
+               <li><a href="#"><span>&Uuml;ber mich</span></a></li>
+            </ul>
+         </div>
+         <!-- /.column -->
+
+      </div>
+      <!-- /.row -->
+
+   </div>
+   <!-- /.inner-content -->
+
+</header>
+<!-- /.module-header -->
+
+
+<div class="row">
+   <div class="column">
+      <h2>Willkommen auf meinem Blog</h2>
+   </div>
+
+   <div class="column">
+
+      <div class="inner-content">
+
+         <h3>Mein erster Blog, yeha =)</h3>
+         <div class="post-date">01.06.2015</div>
+         <img src="assets/konzert_01.jpg" width="960" height="307" alt="Konzertfoto"/>
+
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Transfer idem ad modestiam vel temperantiam, quae
+            est moderatio cupiditatum rationi oboediens. Hic nihil fuit, quod quaereremus. Nonne igitur tibi videntur,
+            inquit, mala?</p>
+
+         <a href="#" class="button">Zum Artikel</a>
+
+      </div>
+      <!-- /.inner-content -->
+
+   </div>
+   <!-- /.column -->
+
+</div>
+<!-- /.row -->
+
+
+<footer class="module module-footer">
+
+   <div class="row">
+
+      <div class="column small-12 medium-6">
+         <p>&copy; 2015 Design & Umsetzung: <a href="#" target="_blank">Dein Name</a></p>
+      </div>
+
+      <div class="column small-12 medium-6">
+
+         <ul>
+            <li><a href="#"><span class="button">Punkt 1</span></a></li>
+            <li><a href="#"><span class="button">Punkt 2</span></a></li>
+            <li><a href="#"><span class="button">Punkt 3</span></a></li>
+         </ul>
+
+      </div>
+      <!-- /.column -->
+
+   </div>
+   <!-- row -->
+
+</footer>
+
+</body>
+
 </html>

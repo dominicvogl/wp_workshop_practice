@@ -1,2 +1,4 @@
-# Wordpress Workshop
-###### by Dominic Vogl, [www.cat-ia.de](http://www.cat-ia.de)
+# Wordpress Workshop - Übungsdaten
+
+Die Übersicht ist hier zu finden:
+[Repository mit allen Dokumenten](https://github.com/dvcccc/wp_workshop_template)
