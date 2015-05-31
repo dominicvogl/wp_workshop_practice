@@ -5,23 +5,30 @@
 
    <meta charset="utf-8">
 
+   <!-- Viewport des Browsers steuern -->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
    <title>Wordpress Workshop - 13 Media Queries</title>
 
    <style>
 
       p {
-         color: green;
+         color: black;
+      }
+
+      .box {
+         background: palegreen;
+         padding: 10px 10%;
+         width: 80%;
       }
 
       @media screen and (max-width: 600px) {
          p {
-            color: red;
+            color: white;
          }
 
          .box {
-            background-color: #eee;
-            padding: 10px 5%;
-            width: 90%;
+            background: palevioletred;
          }
       }
 
