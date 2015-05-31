@@ -3,111 +3,97 @@
 */
 
 body {
-	font-family: 'DroidSansRegular';
-	font-size: 1em;
-	line-height: 1em;
-	background: url(../assets/bg_spacer.png) repeat-x 0px 155px #e2e2e2;
-	color: #353535;
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    line-height: 1em;
+    color: #353535;
+    background: #909090;
 }
-	
+
 a {
-	text-decoration: none;
-	color: #06363b;
+    text-decoration: none;
+    color: #06363b;
 }
 
 a:hover {
-	color: #38929c;
+    color: #38929c;
 }
 
-#main-wrapper {
-	position: relative;
-	left: 50%;
-	margin-left: -500px;
-	width: 1000px;
-	height: auto;
-}
-	
-#nav { 
-	width: 100%; height: 155px;
-	overflow: hidden;
-	padding-left: 85px;
-}
-	
-#nav a {
-	text-shadow: 1px 1px 0px rgba(255,255,255,0.7);
-	height: 95px;
-	padding: 60px 30px 0 30px;
-	display: block;
-	background: none;
-	font-size: .8em;
+/*
+* Headline
+*/
+
+h2 {
+    color: darkslategrey;
+    font-size: 26px;
 }
 
-#nav a:hover {
-	color: #38929c;
-}
-	
-#nav li {
-	float: left;
-	display: block;
-}
-	
-#nav a span { 
-	font-family: 'DroidSansBold';
-	font-size: 1.3em;
-	display: block;	
-	margin-bottom: 5px;
+h3 {
+    font-weight: normal;
+    font-size: 22px;
 }
 
+/*
+* Das Grid
+*/
 
-span.weiterlesen {
-	display: block;
-	margin-bottom: 30px;
+.row {
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
 }
 
-span.weiterlesen a {
-	display: block;
-	font-family: 'DroidSansBold';
+.row img {
+    max-width: 100%;
+    height: auto;
 }
 
+.column {
+    margin-bottom: 30px;
+}
 
-.post h1 {	
-	height: 50px;
-	position: relative;
-	margin-bottom: 25px;
+.inner-content {
+    background: #fff;
+    padding: 30px;
 }
-	
-.post h1 a {
-	font-family: 'DroidSansBold';
-	font-size: 1.2em;
-	line-height: 2.4em;
-	color: #06363b;
-	text-decoration: none;	
-	text-shadow: 1px 1px 0 #fff;
+
+@media (min-width: 460px) {
+    .inner-content img {
+        float: right;
+        max-width: 400px;
+        margin-left: 15px;
+        margin-bottom: 15px;
+    }
 }
-	
-.post h1 a:hover {
-	color: #38929c;
+
+/*
+* Header
+*/
+
+.logo {
+    float: left;
 }
-	
-.post h2 {
-	line-height: 1.2em;
-	font-size: 1em;
-	font-family: 'DroidSansBold';
-	margin-bottom: 10px;
+
+.navigation {
+    float: right;
 }
-		
-.post {
-	padding: 0 0 30px 25px;
-	width: 536px; height: auto;
+
+/*
+* Button
+*/
+
+.button {
+    background: #333;
+    padding: 10px;
+    color: #fff;
+    display: inline-block;
 }
-	
-.post p {
-	line-height: 1.6em;
-	font-size: .95em;
-	margin-bottom: 15px;
-}
-	
-.alignleft {
-	float: left;
-	margin-right: 10px;
+
+/*
+* Footer
+*/
+
+footer {
+    background: darkslategrey;
+    color: #fff;
 }
