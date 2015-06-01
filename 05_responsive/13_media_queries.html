@@ -20,6 +20,7 @@
          background: palegreen;
          padding: 10px 10%;
          width: 80%;
+         float: left;
       }
 
       @media (min-width: 500px) {
@@ -29,17 +30,14 @@
             padding-right: 5%;
          }
 
-         p:nth-child(2n) {
-            padding-left: 5%;
-            padding-right: 0;
-         }
-
-         p:nth-child(2n+1) {
-            clear: left;
-         }
-
          .container {
             overflow: hidden;
+         }
+      }
+
+      @media (min-width: 600px) and (max-width: 800px) {
+         .container {
+            background: black!important;
          }
       }
 
@@ -50,6 +48,8 @@
 
          .container {
             background: palevioletred;
+            width: 40%;
+            float: none;
          }
       }
 

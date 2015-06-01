@@ -11,14 +11,14 @@
 
 @base-gap: 30px;
 
+
 //
 // Mixins
 //
 
-.font-style(@size, @weight: bold) {
-   font-family: Arial, sans-serif;
+.font-style(@size) {
    font-size: @size;
-   font-weight: @weight;
+   margin: 30px;
 }
 
 //
@@ -34,7 +34,11 @@ div {
    background: @color-base;
    margin-bottom: @base-gap;
    padding: (@base-gap / 2);
-   .font-style(19px);
+   //.font-style(18px);
+
+   font-family: Arial, sans-serif;
+   font-size: 18px;
+   font-weight: bold;
 
    p {
       color: #333;
