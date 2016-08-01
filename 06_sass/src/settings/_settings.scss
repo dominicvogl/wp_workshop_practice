@@ -1,31 +1,29 @@
-// Maximale Breite des Rasters
-$max-width:                  		1000px;
-$grid-gutter-width:              30px;
-
+$max-width: 1000px;
+$grid-gutter-width: 30px;
 
 // Breakpoints für media queries
-$small:                          480px;
-$medium:                         768px;
-$large:                          1024px;
+$small: 480px;
+$medium: 768px;
+$large: 1024px;
 
 
 // Farben
 
-$color-background:               #f0f0f0; // weiß
-$color-text:                     #202020; // schwarz
-$color-base:                     #39992f; // grün
+$color-background:#f0f0f0; // weiß
+$color-text:#202020; // schwarz
+$color-base:#39992f; // grün
 
 
 // Schriften
 
-$font-base-size:                 17px;
+$font-base-size: 17px;
 
-$font-base-family:               "Roboto", sans-serif;
-$font-headline-family:           "Roboto Condensed", sans-serif;
+$font-base-family: "Roboto", sans-serif;
+$font-headline-family: "Roboto Condensed", sans-serif;
 
 
 // Buttons
 
-$button-border-radius:           5px;
-$button-bg-color:                $color-base;
-$button-text-color:              #fff;
+$button-border-radius: 5px;
+$button-bg-color:$color-base;
+$button-text-color:#fff;

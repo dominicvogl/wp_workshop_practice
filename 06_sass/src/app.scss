@@ -1,2 +1,7 @@
 // Normalisiere die Stylesheets
-@import "lib/normalize";
+@import "lib/normalize.css";
+@import "settings/settings";
+
+body {
+	background: green;
+}
