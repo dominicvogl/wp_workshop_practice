@@ -1,0 +1,112 @@
+/*
+------- MAIN SETTINGS ------------
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    line-height: 1em;
+    color: #353535;
+    background: #909090;
+}
+
+a {
+    text-decoration: none;
+    color: #06363b;
+}
+
+a:hover {
+    color: #38929c;
+}
+
+/*
+* Headline
+*/
+
+h2 {
+    color: darkslategrey;
+    font-size: 26px;
+}
+
+h3 {
+    font-weight: normal;
+    font-size: 22px;
+}
+
+/*
+* Das Grid
+*/
+
+.row {
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.column {
+    margin-bottom: 30px;
+}
+
+.row .column {
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.inner-content {
+    background: #fff;
+    padding: 30px;
+}
+
+@media (min-width: 460px) {
+
+    .row .column {
+        width: 50%;
+        float: left;
+    }
+
+    .inner-content img {
+        float: right;
+        margin-left: 15px;
+        margin-bottom: 15px;
+    }
+
+}
+
+/*
+* Header
+*/
+
+.logo {
+    float: left;
+}
+
+.navigation {
+    float: right;
+}
+
+/*
+* Button
+*/
+
+.button {
+    background: #333;
+    padding: 10px;
+    color: #fff;
+    display: inline-block;
+}
+
+/*
+* Footer
+*/
+
+footer {
+    background: darkslategrey;
+    color: #fff;
+}

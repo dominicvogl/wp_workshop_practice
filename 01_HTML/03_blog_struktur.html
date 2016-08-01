@@ -5,9 +5,9 @@
 
    <title>Wordpress Workshop - 08 CSS Praxis</title>
 
-   <!-- IMPORTIERE DEINE HAUPT CSS DATEI -->
-   <link href="css/normalize.css" rel="stylesheet" type="text/css" media="all"/>
-   <link href="css/master_02.css" rel="stylesheet" type="text/css" media="all"/>
+   <link rel="icon" type="image/png" href="../00_assets/favicon/favicon-16x16.png" sizes="16x16"/>
+   <link rel="icon" type="image/png" href="../00_assets/favicon/favicon-32x32.png" sizes="32x32"/>
+   <link rel="icon" type="image/png" href="../00_assets/favicon/favicon-96x96.png" sizes="96x96"/>
 
 </head>
 
@@ -17,23 +17,17 @@
 
    <div class="inner-content">
 
-      <div class="row">
-
-         <div class="logo">
-            <img src="assets/logo.svg" width="300" alt="Wordpress Logo"/>
-         </div>
-         <!-- /.column -->
-
-         <div class="navigation">
-            <ul>
-               <li><a href="#"><span>Blog</span></a></li>
-               <li><a href="#"><span>&Uuml;ber mich</span></a></li>
-            </ul>
-         </div>
-         <!-- /.column -->
-
+      <div class="logo">
+         <img src="../00_assets/logo/logo.svg" width="300" alt="Wordpress Logo"/>
       </div>
-      <!-- /.row -->
+
+      <nav>
+         <ul>
+            <li><a href="#"><span>Blog</span></a></li>
+            <li><a href="#"><span>&Uuml;ber mich</span></a></li>
+            <li><a href="#"><span>Lost Places</span></a></li>
+         </ul>
+      </nav>
 
    </div>
    <!-- /.inner-content -->
@@ -43,18 +37,19 @@
 
 
 <div class="row">
+
    <div class="column">
       <h2>Willkommen auf meinem Blog</h2>
    </div>
 
    <div class="column">
 
-      <div class="inner-content">
+      <article class="inner-content">
 
          <h3>Mein zweiter Blogpost</h3>
 
-         <div class="post-date">01.06.2015</div>
-         <img src="assets/konzert_01.jpg" width="960" height="307" alt="Konzertfoto"/>
+         <time>16.76.2015</time>
+         <img src="../00_assets/images/Lost-Place-(c)DominicVogl-MG_8351.jpg" width="800" height="533" alt="2016(c) Dominic Vogl" />
 
          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Transfer idem ad modestiam vel temperantiam, quae
             est moderatio cupiditatum rationi oboediens. Hic nihil fuit, quod quaereremus. Nonne igitur tibi videntur,
@@ -66,7 +61,7 @@
 
          <a href="#" class="button">Zum Artikel</a>
 
-      </div>
+      </article>
       <!-- /.inner-content -->
 
    </div>
@@ -74,12 +69,12 @@
 
    <div class="column">
 
-      <div class="inner-content">
+      <article class="inner-content">
 
          <h3>Mein erster Blogpost =)</h3>
 
-         <div class="post-date">31.05.2015</div>
-         <img src="assets/konzert_03.jpg" width="960" height="307" alt="Konzertfoto"/>
+         <time>28.07.2016</time>
+         <img src="../00_assets/images/Lost-Place-(c)DominicVogl-MG_8339.jpg" width="533" height="800" alt="2016(c) Dominic Vogl" />
 
          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Transfer idem ad modestiam vel temperantiam, quae
             est moderatio cupiditatum rationi oboediens. Hic nihil fuit, quod quaereremus. Nonne igitur tibi videntur,
@@ -91,7 +86,7 @@
 
          <a href="#" class="button">Zum Artikel</a>
 
-      </div>
+      </article>
       <!-- /.inner-content -->
 
    </div>
@@ -106,14 +101,15 @@
    <div class="row">
 
       <div class="column small-12 medium-6">
-         <p>&copy; 2015 Design & Umsetzung: <a href="#" target="_blank">Dein Name</a></p>
+         <p>&copy; 2016 Design & Umsetzung: <a href="#" target="_blank">Dominic Vogl</a></p>
       </div>
 
       <div class="column small-12 medium-6">
 
          <ul>
-            <li><a href="#"><span class="button">Blog</span></a></li>
-            <li><a href="#"><span class="button">&Uuml;ber mich</span></a></li>
+            <li><a href="#"><span>Blog</span></a></li>
+            <li><a href="#"><span>&Uuml;ber mich</span></a></li>
+            <li><a href="#"><span>Lost Places</span></a></li>
          </ul>
 
       </div>

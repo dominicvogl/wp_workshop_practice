@@ -1,0 +1,63 @@
+/* Basic styles */
+
+* {
+    box-sizing: border-box;
+}
+
+p {
+    color: #000;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.button {
+    background: lightseagreen;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.button:hover {
+    background-color: mediumseagreen;
+}
+
+/* Artikelwrapper */
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+article {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+}
+
+article .inner-content {
+    padding: 15px;
+    background-color: #f0f0f0;
+}
+
+@media screen and (min-width: 500px) {
+
+    article {
+        width: 50%;
+        float: left;
+    }
+
+}
+
+@media screen and (min-width: 760px) {
+
+    article {
+        width: 33.333%;
+    }
+
+}

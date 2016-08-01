@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'DroidSansRegular';
-    src: url('../fonts/droidsans-webfont.eot');
-    src: url('../fonts/droidsans-webfont.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/droidsans-webfont.woff') format('woff'),
-    url('../fonts/droidsans-webfont.ttf') format('truetype'),
-    url('../fonts/droidsans-webfont.svg#DroidSansRegular') format('svg');
+    src: url('../../00_assets/fonts/droidsans-webfont.eot');
+    src: url('../../00_assets/fonts/droidsans-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../../00_assets/fonts/droidsans-webfont.woff') format('woff'),
+    url('../../00_assets/fonts/droidsans-webfont.ttf') format('truetype'),
+    url('../../00_assets/fonts/droidsans-webfont.svg#DroidSansRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
