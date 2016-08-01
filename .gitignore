@@ -1,7 +1,9 @@
-.idea
 .DS_Store
-thumb.db
-thumbs.db
+Thumbs.db
+.idea
 *.psd
+*.ai
 *.zip
 *.rar
+*.gz
+*.tar
